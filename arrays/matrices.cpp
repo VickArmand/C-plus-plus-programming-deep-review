@@ -10,11 +10,8 @@ int main()
     for(i = 0; i < 6; i++)
     {
         cin>> price[i];
-    }
-    for(i = 0; i < 6; i++)
-    {
         sum+=price[i];
-    } 
+    }
     cout<<"Sum is "<<sum<<"\n";
     return(0);
 }
